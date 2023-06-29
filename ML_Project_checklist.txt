@@ -9,8 +9,7 @@ This checklist can guide you through your Machine Learning projects. There are e
 7. Present your solution.
 8. Launch, monitor, and maintain your system.
 Obviously, you should feel free to adapt this checklist to your needs
-
-
+_______________________________________________________________________________________________________________________________________________
 
 ## Frame the Problem and Look at the Big Picture
 1. Define the objective in business terms.
@@ -25,6 +24,7 @@ Obviously, you should feel free to adapt this checklist to your needs
 10. How would you solve the problem manually?
 11. List the assumptions you (or others) have made so far.
 12. Verify assumptions if possible.
+_______________________________________________________________________________________________________________________________________________
 
 ## Get the Data
 Note: automate as much as possible so you can easily get fresh data.
@@ -57,6 +57,7 @@ Type of distribution (Gaussian, uniform, logarithmic, etc.)
 8. Identify the promising transformations you may want to apply.
 9. Identify extra data that would be useful (go back to “Get the Data”).
 10. Document what you have learned.
+_______________________________________________________________________________________________________________________________________________
 
 ## Prepare the Data
 Notes:
@@ -78,6 +79,7 @@ Decompose features (e.g., categorical, date/time, etc.).
 Add promising transformations of features (e.g., log(x), sqrt(x), x^2, etc.).
 Aggregate features into promising new features.
 4. Feature scaling: standardize or normalize features.
+_______________________________________________________________________________________________________________________________________________
 
 ## Short-List Promising Models
 Notes:
@@ -115,6 +117,7 @@ individually.
 estimate the generalization error.
 WARNING
 Don’t tweak your model after measuring the generalization error: you would just start overfitting the test set.
+_______________________________________________________________________________________________________________________________________________
 
 ## Present Your Solution
 1. Document what you have done.
@@ -127,4 +130,4 @@ List your assumptions and your system’s limitations.
 5. Ensure your key findings are communicated through beautiful visualizations or easy-to-remember
 statements (e.g., “the median income is the number-one predictor of housing prices”).
 
-
+_______________________________________________________________________________________________________________________________________________
